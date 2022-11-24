@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz Time!</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<div class="container-fluid" id="Title">
+    <div class="d-flex justify-content-center">
+        <h1 class="display-2">What's the Weather</h1>
+    </div>
+</div>
+
+<br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 col-sm" id="left-side">
+            <div id="border-1">
+                <div class="form-group">
+                    <label for="searchCityForm" id="search-question">Search for a City:</label>
+                    <input type="text" class="form-control" id="citySearch" aria-describedby="citySearch" placeholder="search here...">
+                </div>
+                <button type="submit" class="btn btn-success">Search!</button>
+            </div>
+
+            <div>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="atlanta">Atlanta</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="denver">Denver</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="seattle">Seattle</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="san-francisco">San Francisco</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="orlando">Orlando</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="new-york">New York</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="chicago">Chicago</button>
+                <br>
+                <br>
+                <button type="submit" class="w-100 common-locations" id="austin">Austin</button>
+            </div>
+        </div>
+
+        <div class="col-md-9 col-sm">
+            <div class="row">
+                <div class="col">
+                    <h2 id="location"></h2>
+                    <br>
+                    <h4 id="temp"></h4>
+                    <br>
+                    <h4 id="wind"></h4>
+                    <br>
+                    <h4 id="humidity"></h4>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col" id="five-day">
+                        <h2>5-Day Forecast:</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 id="day-1"></h4>
+                                <br>
+                                <p id="icon-1"></p>
+                                <br>
+                                <p id="temp-1"></p>
+                                <br>
+                                <p id="wind-1"></p>
+                                <br>
+                                <p id="humidity-1"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 id="day-2"></h4>
+                                <br>
+                                <p id="icon-2"></p>
+                                <br>
+                                <p id="temp-2"></p>
+                                <br>
+                                <p id="wind-2"></p>
+                                <br>
+                                <p id="humidity-2"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 id="day-3"></h4>
+                                <br>
+                                <p id="icon-3"></p>
+                                <br>
+                                <p id="temp-3"></p>
+                                <br>
+                                <p id="wind-3"></p>
+                                <br>
+                                <p id="humidity-3"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 id="day-4"></h4>
+                                <br>
+                                <p id="icon-4"></p>
+                                <br>
+                                <p id="temp-4"></p>
+                                <br>
+                                <p id="wind-4"></p>
+                                <br>
+                                <p id="humidity-4"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 id="day-5"></h4>
+                                <br>
+                                <p id="icon-5"></p>
+                                <br>
+                                <p id="temp-5"></p>
+                                <br>
+                                <p id="wind-5"></p>
+                                <br>
+                                <p id="humidity-5"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
