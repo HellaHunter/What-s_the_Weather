@@ -28,8 +28,8 @@ No installation needed. Just open the link of the deployed application and unlea
 ## Usage
 
 How to use:
--1] Go to site and search a city
--2] Click on a preselected city button
+1.] Go to site and search a city
+2.] Click on a preselected city button
 - (When using from Github deployed site, please ensure you allow HTTP content to be loaded for site-seetings)
 
 ## Credits
