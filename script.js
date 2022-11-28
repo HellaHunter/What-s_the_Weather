@@ -1,5 +1,5 @@
 const API_key = "1dfd0d23cfd1a1930b38c3988994eec0";
-const geocode_1 = "http://api.openweathermap.org/geo/1.0/direct?q=";
+const geocode_1 = "https://api.openweathermap.org/geo/1.0/direct?q=";
 const geocode_2 = "&limit=1&appid=" + API_key;
 const forecastSearch_1 = "https://api.openweathermap.org/data/2.5/forecast?units=imperial&";
 const forecastSearch_2 = "&appid=" + API_key;
