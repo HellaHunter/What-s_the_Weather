@@ -19,7 +19,7 @@ What's the Weather is a website that allows you to get a 5 day forecast for any 
 
 ## Deployed Application Link
 
-https://hellahunter.github.io/Code-Quiz/
+https://hellahunter.github.io/What-s_the_Weather/
 
 ## Installation
 
