@@ -32,3 +32,9 @@
     color: antiquewhite;
     border: 1px solid gray;
 }
+
+#locationGeneral {
+    border-style: dotted;
+    border-width: thick;
+    background-color: lightgrey;
+}
